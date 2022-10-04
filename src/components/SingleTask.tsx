@@ -19,6 +19,10 @@ const SingleTask = ({ todo, todos, setTodos }: Props) => {
     );
   };
 
+  const handleDeleteTask = (id: number) => {
+    setTodos(todos.filter(todo => todo.id !== id));
+  };
+
   return (
     <form className="todos__single">
       {todo.isDone ? (
@@ -30,7 +34,7 @@ const SingleTask = ({ todo, todos, setTodos }: Props) => {
         <span className="icon">
           <AiFillEdit />
         </span>
-        <span className="icon">
+        <span className="icon" onClick={() => handleDeleteTask(todo.id)}>
           <AiFillDelete />
         </span>
         <span className="icon" onClick={() => handleTaskIsDone(todo.id)}>

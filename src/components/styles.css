@@ -16,7 +16,7 @@
 }
 
 .input__box:focus {
-  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 2400px rgba(0, 0, 0, 0.5);
   outline: none;
 }
 
@@ -58,19 +58,20 @@
   flex-direction: column;
   width: 47.5%;
   padding: 15px;
-  background-color: rgb(50, 195, 205);
+  background-color: #32c3cd;
 }
 
 .dragactive {
-  background-color: rgb(0, 221, 236);
+  background-color: #00ddec;
 }
 
 .dragcomplete {
-  background-color: rgb(255, 38, 0);
+  background-color: #ff2600;
+  background-color: #df2935;
 }
 
 .remove {
-  background-color: rgb(235, 103, 80);
+  background-color: #ef5b5b;
 }
 
 .todos__heading {
@@ -85,6 +86,7 @@
   padding: 20px;
   margin-top: 15px;
   background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  background-image: "https://img.freepik.com/free-vector/aesthetic-background-vector-with-hexagons_53876-126704.jpg?w=900&t=st=1665098751~exp=1665099351~hmac=39772284f29fdd794f5efc1e082659df3fa89b11c0b9b6fbfdb97988c018420e";
   transition: 0.2s;
 }
 
